@@ -976,5 +976,264 @@ textarea {
     
   }
   
+/* Dark Theme */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Styling */
+.contain {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.jcs {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.g20 {
+    gap: 20px;
+}
+
+/* Beautification */
+.comments {
+    padding: 20px;
+}
+
+.comments h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #444;
+    color: #fff;
+}
+
+.form_button {
+    padding: 10px 20px;
+    background-color: #03a9f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comments_box {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin-bottom: 5px;
+}
+
+.comment span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+ 
+/End Flash Alert/
+
+.custom-posts {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-details-container {
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-role-container {
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+}
+
+.posta-date {
+    font-size: 20px;
+    color: #000;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.custom-posts {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-details-container {
+    margin-bottom: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-role-container {
+    font-weight: bold;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #888;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.post-content-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.post-image {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 8px; /* Apply border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    margin-top: 10px; /* Add some space between the description and the image */
+}
+
+
+.form_boxs {
+    flex-grow: 1; /* Grow to fill available space */
+    margin-right: 10px; /* Add some space between the input box and the button */
+  }
+  
+  .form-controls {
+    width: 100%; /* Ensure the input box takes up the entire width of its container */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Apply border radius for rounded corners */
+  }
+  
+  .form_buttons {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .form_buttons:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+  }
+  
+  .dark-theme {
+  background-color: #222; /* Set dark background color */
+  color: #fff; /* Set light text color */
+}
+
+.profile_cover {
+  background-color: #444; /* Set cover background color */
+}
+
+.user_info img {
+  border: 6px solid #c6c3c3; /* Add white border around user image */
+}
+
+.user_name {
+  font-size: 24px; /* Increase font size for user name */
+  margin-top: 10px; /* Add space between image and name */
+}
+
+.no_post_text {
+  margin-top: 20px; /* Add space above no post text */
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+  }
+
+
+  .formss-control {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff; /* Text color */
+    background-color: #555; /* Input background color */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+  }
+  
+
+  .form_buttonss {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0095f6; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  .form_buttonss:hover {
+    background-color: #45a049; /* Darker background color on hover */
+  }
+
+  .formss-control::placeholder {
+    font-size: 20px; /* Adjust the font size as needed */
+    color:white;
+  }
+
  
 /*End Flash Alert*/
